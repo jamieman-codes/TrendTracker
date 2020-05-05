@@ -7,8 +7,8 @@ from datetime import datetime
 import matplotlib
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2TkAgg
 from matplotlib import style
-auth = tweepy.OAuthHandler('xuyLXNxuVF2vrQoOGp6HTJaRz', 'st2jaeoTE4nKdBHU5YQAQQaMdDojKkWizw2bZyK4n2XeyEnKBn')
-auth.set_access_token('2799784460-HATeAT02qGcgjLb91NNy4wlpzqSDhJzCj2hNHHW', 'Fioy5vc9H0oKS4SzggnlVxql7cfGR6fO2cZavMbMgiffk')
+auth = tweepy.OAuthHandler('', '')PUT API KEYS HERE
+auth.set_access_token('', '')
 api = tweepy.API(auth)
 COUNTRYCODES = pickle.load(open("countryCodes.p", "rb")) #Loads the country codes dictionary from an external pickle file
 style.use('ggplot') #Styles the matplotlib graphs to make them look nicer
